@@ -14,18 +14,20 @@
             /* flex-wrap: wrap; */
             flex-direction: row;
             height:1200px;
-            justify-content:start;
+            justify-content:space-around;
         align-items:start;
         align-content: center;
+        display: flex;
             
         
         }
         .box{
-            /* width: 200px;
-            height: 200px; */
+            width: 200px;
+            height: 200px;
             border: 2px solid black;
             margin: 2px;
             padding: 2px;
+            display: flex;
            
         }
 
@@ -35,16 +37,21 @@
             /* flex-shrink: 4; */ v
             /* flex-grow: 1; */
             /* align-self: end; */
+     
+                                
         }
-        #box2{
-            background-color: rgb(41, 93, 138);
+       
+       #box2{
+        background-color: rgb(173, 19, 19);
             /* flex-grow: 1; */
+       }
 
-        }
+
         #box3{
             background-color: rgb(173, 19, 19);
-            /* flex-grow: 1; */
             
+            /* flex-grow: 1; */
+            position: sticky;top: 20px;
         }
         #box4{
             background-color: rgb(168, 101, 47);
@@ -61,6 +68,10 @@
         <div class="box" id= "box2">BOX 2</div>
         <div class="box"  id="box3">BOX 3</div>
         <div class="box" id= "box4">BOX 4</div>
+    </div>
+    <div>
+
+        
     </div>
 </body>
 </html>
